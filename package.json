@@ -1,0 +1,11 @@
+{
+    "name": "my-static-site",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "echo 'No build needed!'"
+    },
+    "dependencies": {
+      "mongodb": "^4.0.0"
+    }
+  }
+  

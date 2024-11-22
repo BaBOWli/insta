@@ -1,0 +1,9 @@
+[build]
+  base = ""
+  publish = "app" # Frontend dizini
+  functions = "netlify/functions" # Backend functions dizini
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
